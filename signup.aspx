@@ -70,9 +70,9 @@
 <body>
     <form id="form1" runat="server">  
        <div> 
-           <h2 style="font-family: 'Juice ITC'; font-size: 50px; font-weight: bolder; text-decoration: blink; color: #FFFFCC;">ONLINE SECOND HAND BOOK SELLING AND BUYING PLATFORM<asp:Button ID="Button2" runat="server" Height="40px" style="margin-left: 359px; margin-top: 0px;" Text="SIGNUP" Width="85px" BackColor="#FFCC66" />
+           <h4 style="font-family: 'Juice ITC'; font-size: 50px; font-weight: bolder; text-decoration: blink; color: #FFFFCC;">ONLINE SECOND HAND BOOK SELLING AND BUYING PLATFORM<asp:Button ID="Button2" runat="server" Height="40px" style="margin-left: 359px; margin-top: 0px;" Text="SIGNUP" Width="85px" BackColor="#FFCC66" />
             <asp:Button ID="Button1" runat="server" Height="40px" style="margin-left: 0px" Text="SIGNIN" Width="86px" OnClick="Button1_Click" BackColor="#FFCC66" />
-        </h2>
+        </h4>
        </div></br>
         <div>
         <ul>
@@ -99,6 +99,11 @@
                 
         </ul>
         </div>
+            <p>
+                &nbsp;</p>
+        <p>
+            <asp:Image ID="Image1" runat="server" AlternateText="scenery" Height="313px" ImageAlign="Middle" ImageUrl="~/344f81ba03ab940990fb65209cddd59b83db1e2d.jpg" Width="725px" />
+        </p>
             </form>
 </body>
 </html>
