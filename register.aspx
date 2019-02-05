@@ -1,6 +1,13 @@
 ﻿<%@ Page Language="VB" %>
 
 <!DOCTYPE html>
+<script runat="server">
+
+    Protected Sub Button3_Click(sender As Object, e As EventArgs)
+
+    End Sub
+</script>
+
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
 <meta charset="utf-8" />
@@ -8,7 +15,7 @@
     <link rel="stylesheet" type="text/css" href="styles.css" />
     <style>
         body {
-            background-image: url('https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjdlrHp8pfgAhVEOSsKHdx9CkMQjRx6BAgBEAU&url=https%3A%2F%2Fwww.elklakepublishinginc.com%2Face-collins%2Fblue-book-background%2F&psig=AOvVaw0Osl5t2oWp1Vf8-4gC1xqW&ust=1549019839549841');
+            background-image: url('https://blog.studocu.com/wp-content/uploads/2017/08/best-books-book-youll-ever-read.jpg');
             background-repeat: no-repeat;
             background-attachment: fixed;
         }
@@ -109,7 +116,7 @@
        <div> 
            <h2 style="font-family: 'Juice ITC'; margin-top: 10px; font-weight: bolder; text-decoration: blink; color: #FFFFCC;">ONLINE SECOND HAND BOOK SELLING AND BUYING PLATFORM
            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
-              <asp:Button ID="Button3" runat="server" Text="SELL"  style="margin-left: 330px;" BackColor="#FFCC66" Height="40px" float="right" Width="97px"/>
+              <asp:Button ID="Button3" runat="server" Text="SELL"  style="margin-left: 330px;" BackColor="#FFCC66" Height="40px" float="right" Width="97px" OnClick="Button3_Click"/>
                <asp:Button ID="Button2" runat="server" Height="40px" style="margin-left: 0px; margin-top: 0px;" Text="SIGNUP" Width="94px" float="right" BackColor="#FFCC66" />
             <asp:Button ID="Button1" runat="server" Height="40px" style="margin-left: 0px" Text="SIGNIN" Width="96px" float="right" BackColor="#FFCC66" />
         </h2>
@@ -151,14 +158,14 @@
         </section>
         
         <section id="second"></br>
-            <div style="">
+           <center> 
             <asp:Label ID="Label1" runat="server" Text="USERNAME:" ForeColor="White"></asp:Label><input style="display:block;padding: 15px;margin: 5px 0 20px 0;border: none;background: #f1f1f1;width:40%" id="Text1" placeholder="Enter UserName" type="text" />
             <asp:Label ID="Label2" runat="server" Text="FULLNAME:" ForeColor="White"></asp:Label><input style="display:block;padding: 15px;margin: 5px 0 20px 0;border: none;background: #f1f1f1;width:40%" id="Text1" placeholder="Enter FullName" type="text" />
             <asp:Label ID="Label3" runat="server" Text="EMAIL:" ForeColor="White"></asp:Label><input style="display:block;padding: 15px;margin: 5px 0 20px 0;border: none;background: #f1f1f1;width:40%" id="Text1" placeholder="Enter Valid Email-id" type="email" />
             <asp:Label ID="Label4" runat="server" Text="PHONE:" ForeColor="White"></asp:Label><input style="display:block;padding: 15px;margin: 5px 0 20px 0;border: none;background: #f1f1f1;width:40%" id="Text1" placeholder="Enter contact number" type="number" />
             <asp:Label ID="Label5" runat="server" Text="ADDRESS:" ForeColor="White"></asp:Label><textarea style="display:block;padding: 15px;margin: 5px 0 20px 0;border: none;background: #f1f1f1;width:40%" id="TextArea1" placeholder="Enter full address " cols="8" rows="4"></textarea>
             <asp:Label ID="Label6" runat="server" Text="PASSWORD:" ForeColor="White"></asp:Label><input style="display:block;padding: 15px;margin: 5px 0 20px 0;border: none;background: #f1f1f1;width:40%" id="Password1" placeholder="Enter password" type="password" />
-            <input id="Submit1" type="submit" style="display:block;" value="submit" />
+            <input id="Submit1" type="submit" style="display:block;" value="submit" /></center>
         </section>
 
 <section id="third">
